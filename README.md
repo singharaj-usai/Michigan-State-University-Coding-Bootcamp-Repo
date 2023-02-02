@@ -13,13 +13,13 @@ This is your one-stop-shop for all things `Bootcamp` related.
 
 Below your will find a growing listing of our **Course Sections** as we moved through them. I uploaded this to GitHub in case of an event where I can't access my computer or local repository so this acts as a backup for me.
 
-I have added a bunch of helpful material that the Bootcamp didn't provide, such as cheatsheets, README directories, and imported the [Canvas modules unit overviews](course-content/00-resources/unit-overview) over here to easily view in your IDE.
+I have added a bunch of helpful material that the Bootcamp didn't provide, such as cheatsheets, README directories, and imported the [Canvas modules unit overviews](01-Course-Content/00-resources/unit-overview) over here to easily view in your IDE.
 
-Cheatsheets have been added on the **Resources** section to help you easily guide through the material, [Click Here](course-content/00-resources/cheatsheets) to be directed there.
+Cheatsheets have been added on the **Resources** section to help you easily guide through the material, [Click Here](01-Course-Content/00-resources/cheatsheets) to be directed there.
 
 I will continue updating this repo periodically with extra material as I learn them. Any suggestions or feedback please let me know!
 
-If you have question about `Course Guidelines` such as `Student Support Listing`, `Code Of Student Conduct`, etc please **[Click Here](course-content/00-resources/README.md)**.
+If you have question about `Course Guidelines` such as `Student Support Listing`, `Code Of Student Conduct`, etc please **[Click Here](01-Course-Content/00-resources/README.md)**.
 
 If you have any other questions or have questions about the material, you can contact me at:
 
