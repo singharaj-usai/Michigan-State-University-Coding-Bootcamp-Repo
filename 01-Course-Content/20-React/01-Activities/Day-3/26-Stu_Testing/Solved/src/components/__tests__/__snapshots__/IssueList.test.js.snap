@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IssueList should render 1`] = `
+"<div class=\\"ui relaxed divided list\\">
+  <div class=\\"item\\"><i class=\\"large github middle aligned icon\\"></i>
+    <div class=\\"content\\"><a class=\\"header\\" href=\\"https://github.com/microsoft/vscode/issues/68\\" target=\\"_blank\\" rel=\\"noreferrer\\">Git: Support git history in VSCode</a>
+      <div class=\\"description\\"></div>
+    </div>
+  </div>
+  <div class=\\"item\\"><i class=\\"large github middle aligned icon\\"></i>
+    <div class=\\"content\\"><a class=\\"header\\" href=\\"https://github.com/microsoft/vscode/issues/127\\" target=\\"_blank\\" rel=\\"noreferrer\\">Provide option to opt out of line ending normalisation for files</a>
+      <div class=\\"description\\"></div>
+    </div>
+  </div>
+</div>"
+`;

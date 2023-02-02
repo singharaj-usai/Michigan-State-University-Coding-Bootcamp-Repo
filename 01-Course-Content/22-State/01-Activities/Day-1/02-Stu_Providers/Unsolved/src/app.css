@@ -1,0 +1,9 @@
+.app {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}

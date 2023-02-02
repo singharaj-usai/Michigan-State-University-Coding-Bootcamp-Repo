@@ -1,0 +1,9 @@
+{
+  "name": "16-stu-body-parsing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,67 @@
+:root {
+  --blue: #2980b9;
+  --lightblue: #3498db;
+  --light: #ecf0f1;
+  --darkblue: #2c3e50;
+  --red: #e74c3c;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  background-color: var(--light);
+  color: var(--darkblue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+thead {
+  background-color: var(--red);
+  color: var(--light);
+  font-weight: 700;
+}
+
+.custom-jumbotron,
+.custom-card .card-header,
+.custom-card .card-footer,
+.custom-modal .modal-header,
+.custom-modal .modal-footer {
+  background-color: var(--darkblue);
+  color: var(--light);
+}
+
+.custom-card {
+  border-color: var(--darkblue);
+}
+
+.custom-card .card-body,
+.custom-modal .modal-body {
+  background-color: var(--light);
+  color: var(--darkblue);
+}
+
+.custom-btn {
+  background-color: var(--light);
+  color: var(--darkblue);
+}
+
+.custom-btn:hover {
+  background-color: var(--lightblue);
+  color: var(--darkblue);
+}
+
+.custom-table tbody {
+  background-color: var(--darkblue);
+  color: var(--light);
+}
+
+.delete-project-btn {
+  cursor: pointer;
+}

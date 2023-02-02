@@ -1,0 +1,26 @@
+[
+    {
+        "username": "j",
+        "topic": "UX",
+        "tip": "Don't use comic sans",
+        "tip_id": "37t8"
+    },
+    {
+        "username": "Sarah",
+        "topic": "UI",
+        "tip": "Make your application accessible by adding alt properties to elements",
+        "tip_id": "701e"
+    },
+    {
+        "username": "CoolGuy1",
+        "tip": "Don't use three different fonts on the same page",
+        "topic": "UX",
+        "tip_id": "0a46"
+    },
+    {
+        "username": "test",
+        "tip": "test",
+        "topic": "UX",
+        "tip_id": "05df"
+    }
+]

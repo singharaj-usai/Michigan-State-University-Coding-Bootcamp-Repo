@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  background-color: lightblue;
+}
+
+h2 {
+  text-align: left;
+}
+
+ul {
+  text-align: right;
+  color: #ffffff;
+}
+
+/* List items in navigation bar */
+li {
+  /* Sets display to inline */
+  display: inline;
+  list-style-type: none;
+  font-size: 40px;
+}
+
+/* Boxes */
+img {
+  /* Sets display to block */
+  display: block;
+  /*Sets margins to center elements*/
+  margin: 0 auto;
+}
+
+#item-1 {
+  background-color: #e0115f;
+}
+
+#item-2 {
+  background-color: #0000ff;
+}
+
+#item-3 {
+  background-color: #999900;
+}
+
+/* Box 3 */
+#image-3 {
+  /* Change display: none to display: block */
+  display: block;
+}

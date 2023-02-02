@@ -1,0 +1,19 @@
+{
+  "name": "24-Stu_Subdoc-Population",
+  "version": "1.0.1",
+  "description": "Student activity for populating subdocs",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}

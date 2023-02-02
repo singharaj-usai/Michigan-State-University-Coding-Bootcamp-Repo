@@ -1,0 +1,33 @@
+/* Universal selector */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Element selectors */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* Class selector */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* ID selector */
+#contact-section {
+  background-color: #f0ead6;
+}

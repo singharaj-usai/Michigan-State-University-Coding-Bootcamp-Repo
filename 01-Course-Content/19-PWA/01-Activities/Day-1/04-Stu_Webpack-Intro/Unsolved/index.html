@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting up Webpack</title>
+    <style>
+      /* CSS assets can also be bundled. We will learn more about bundling CSS in another activity */
+
+      h1 {
+        font-size: 60px;
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 20 auto;
+        border: 10px solid black;
+        height: 80px;
+        width: 300px;
+        font-size: 20px;
+        background-color: lightskyblue;
+      }
+
+      #box {
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+        border: 10px solid black;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1 id="header">Webpack Color Changer</h1>
+      <div id="box"></div>
+      <button id="boxBtn">Change Box Color!</button>
+      <button id="headerBtn">Change Header Color!</button>
+    </section>
+  </body>
+  <!--TODO: Add a comment explaining the change needed to src attribute when this file is copied into the dist folder-->
+  <script src="src/js/index.js"></script>
+</html>

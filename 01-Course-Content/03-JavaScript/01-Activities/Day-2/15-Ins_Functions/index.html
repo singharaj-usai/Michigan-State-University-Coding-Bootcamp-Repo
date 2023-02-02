@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functions</title>
+</head>
+
+<body>
+  
+  <h1 style="text-align:center">Open the Console to See the Magic ✨</h1>
+
+  <script src="script.js"></script>
+
+  <script>
+
+  // 1. Function Declaration
+  function add(a, b) {
+    // ^ Function is going to be called
+    console.log("result: " + (a + b))
+    // ^ The function will console log the result
+    return(a + b); // The return method isn't necessary because JavaScript returns undefined by default if there's nothing, but we are returning a + b
+    // ^ Returns the value
+  }
+  add(30, 20);
+  // ^ Calls the function
+
+  // Below assigns the "add" value to the "result" variable
+  // const result = add(30, 20);
+  // console.log("the result is: " + result);
+
+  // 2. Function Expression
+  const addTwo = function(a, b) {
+    console.log("result: " + (a + b))
+    return(a + b);
+  }
+  addTwo(2, 5);
+
+  // 3. Arrow Functions
+  const addThree = (a, b) => (a + b) // A way to write Arrow functions in one line
+  addThree(10, 20);
+  // const resThree = addThree(10, 20); // See Function Declaration, this is how to assign a Call function as a variable
+
+  // Multiple line method for arrow functions
+  // const addThree = (a, b) => {
+  //   return (a + b)
+  //  }
+  // addThree(a, b)
+
+  </script>
+
+</body>
+</html>

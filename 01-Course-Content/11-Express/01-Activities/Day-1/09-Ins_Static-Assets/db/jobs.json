@@ -1,0 +1,23 @@
+[
+  {
+    "company": "Google",
+    "job_title": "Network Engineer",
+    "description": "Google is proud to boast a network that provides services to millions of Internet users around the globe. As a network engineer you will be responsible for reliability and scale of network infrastructure.",
+    "website": "https://google.com",
+    "image": "google.png"
+  },
+  {
+    "company": "Built In Austin",
+    "job_title": "Technical Writer",
+    "description": "Built In Austin is home for news, job postings, and community events centered around Austin's thriving tech industry. As a Technical Writer you will write articles and manage online content.",
+    "website": "https://builtinaustin.com",
+    "image": "bia.jpg"
+  },
+  {
+    "company": "CodeDrip",
+    "job_title": "Front End Developer",
+    "description": "<b>CodeDrip</b> is a fictional company created for this activity. We specialize in creating developer tools to make the lives of other developers easy. As a Front End Developer you will be responsible for transitioning our existing AngularJS based website to modern React website.",
+    "website": "#",
+    "image": "gh.png"
+  }
+]

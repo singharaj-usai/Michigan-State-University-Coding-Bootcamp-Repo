@@ -1,0 +1,25 @@
+ .lesson {
+  width: 200px;
+  height: 100px;
+}
+/* Uses hex code to define color */
+.section-blue {
+  color: #ffa500;
+  background-color: #0000FF;
+}
+ 
+/* Uses predefined colors */
+.container {
+  color: white;
+  background-color: black;
+}
+
+/* Purple and yellow are example of high contrast colors */
+#section-1 {
+  color: #ffff00;
+  background-color: #800080;
+}
+
+#section-6 {
+  color: #ffff00;
+}

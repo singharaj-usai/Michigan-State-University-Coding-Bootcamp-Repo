@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IssueItem should match snapshot 1`] = `
+"<div class=\\"item\\"><i class=\\"large github middle aligned icon\\"></i>
+  <div class=\\"content\\"><a class=\\"header\\" href=\\"https://github.com/microsoft/vscode/issues/68\\" target=\\"_blank\\" rel=\\"noreferrer\\">Git: Support git history in VSCode</a>
+    <div class=\\"description\\"></div>
+  </div>
+</div>"
+`;

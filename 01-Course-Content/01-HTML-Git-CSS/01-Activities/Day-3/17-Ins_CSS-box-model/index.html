@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML Box Model</h1>
+    </header>
+    
+    <section>
+      <div class="example-box">
+        <h2>Content Area</h2>
+        <h3>is made up of the width and height of the content</h3>
+        <img src="assets/images/image-1.png" alt="box with number 1"/>
+        <h4>The content has a width of 200px</h4>
+        <h4>The content has a height of 200px</h4>
+      </div>
+    </section>
+
+    <section>
+      <div class="example-box">
+        <h2>Padding Area</h2>
+        <h3>extends the content area to include padding around it</h3>
+        <img class="image-padding" src="assets/images/image-1.png" alt="box with number 1"/>
+        <h4>The content has a width of 200px</h4>
+        <h4>The content has a height of 200px</h4>
+        <h4>The padding on each side of the content is 20px</h4>
+      </div>
+    </section>
+
+    <section>
+      <div class="example-box">
+        <h2>Border Area</h2>
+        <h3>extends the content area and padding to include border around it</h3>
+        <img class="image-padding image-border" src="assets/images/image-1.png" alt="box with number 1"/>
+        <h4>The content has a width of 200px</h4>
+        <h4>The content has a height of 200px</h4>
+        <h4>The padding on each side of the content is 20px</h4>
+        <h4>The border on each side is 10px</h4>
+      </div>
+    </section>
+
+    <section>
+      <div class="example-box">
+        <h2>Margin Area</h2>
+        <h3>extends the content area, padding, and border to include the margin around it</h3>
+        <img class="image-padding image-border image-margin" src="assets/images/image-1.png" alt="box with number 1"/>
+        <img class="image-padding image-border image-margin" src="assets/images/image-1.png" alt="box with number 1"/>
+        <h4>The content has a width of 200px</h4>
+        <h4>The content has a height of 200px</h4>
+        <h4>The padding on each side of the content is 20px</h4>
+        <h4>The border on each side is 10px</h4>
+        <h4>The margin on each side is 20px.</h4>
+        <h4>Total width of each box = 300px (200px + 20px + 20px + 10px + 10px + 20px + 20px)</h4>
+        <h4>Total height of each box = 300px (200px + 20px + 20px + 10px + 10px + 20px + 20px)</h4>
+      </div>
+    </section>
+      
+  </body>
+
+</html>

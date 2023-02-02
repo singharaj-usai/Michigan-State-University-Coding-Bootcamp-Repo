@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Express Demo</title>
+
+    <link rel="stylesheet" href="jass.css" />
+    <style>
+      body {
+        padding-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="code">res.send([body])</h1>
+      </div>
+      <article class="text-primary p-5">
+        <code>res.send()</code> allows you to send a buffer object, a string,
+        boolean or an array. This method automatically responds differently
+        depending on what data you are sending. For example, if you are sending
+        a buffer, the <code>Content-Type</code> response header will be set to
+        <code>“application/octet-stream”</code>. When you are sending a string,
+        the <code>Content-Type</code> will be set to <code>"text/html"</code>.
+      </article>
+    </div>
+  </body>
+</html>

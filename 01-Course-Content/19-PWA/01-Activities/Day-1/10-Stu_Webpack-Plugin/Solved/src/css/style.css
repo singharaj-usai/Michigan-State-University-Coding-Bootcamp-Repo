@@ -1,0 +1,24 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20 auto;
+  border: 10px solid black;
+  height: 80px;
+  width: 300px;
+  font-size: 20px;
+  background-color: lightskyblue;
+}
+
+#box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  border: 10px solid black;
+  background-color: yellow;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Contact",
+  "scripts": {
+    "dev": "",
+    "build": "",
+    "start": ""
+  },
+  "author": "2U",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+   
+  }
+}

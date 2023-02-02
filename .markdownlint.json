@@ -1,0 +1,25 @@
+{
+  // MD004 - Unordered list uses asterisks
+  "ul-style": {
+    "style": "asterisk"
+  },
+  // MD012 - Only one blank line in between lines
+  "no-multiple-blanks": {
+    "maximum": 1
+  },
+  // MD013 - No rule on line length
+  "line-length": false,
+  // MD022 - Headings should be surrounded by blank lines
+  "blanks-around-headings": {
+    "lines_above": 1,
+    "lines_below": 1
+  },
+  // MD024 - multiple headings with the same content
+  "no-duplicate-heading": false,
+  // MD033 - inline HTML
+  "no-inline-html": false,
+  // MD035 - Horizontal rule style
+  "hr-style": {
+    "style": "---"
+  }
+}

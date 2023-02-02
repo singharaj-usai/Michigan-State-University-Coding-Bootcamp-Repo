@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundling Assets</title>
+    <style>
+      /* CSS assets can also be bundled. We will learn more about bundling CSS in another activity */
+      h1 {
+        text-align: center;
+        font-size: 100px;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        height: 80px;
+        width: 160px;
+        font-size: 20px;
+        background-color: lightskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1 id="header1"></h1>
+      <button id="btn">Click Me!</button>
+    </section>
+  </body>
+  <!--After copying to dist folder, change path to output filename: main.js-->
+  <script src="src/js/index.js"></script>
+</html>

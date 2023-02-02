@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="ml-3 nav-btn">
+        <a class="btn btn-sm btn-dark" id="buttonInstall" role="button">Install!</a>
+      </div>
+      <h1 class="mr-3">iContact Cards</h1>
+    </nav>
+    <section class="container">
+      <div class="row justify-space-around m-4" id="card-group">
+        
+      </div>
+      <div class="container">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-input" for="name" id="name" placeholder="Enter Name" required/>
+          </div>
+          <div class="form-group">
+            <label for="home-phone" class="form-label">Home Phone:</label>
+            <input type="tel" class="form-input" for="home-phone" id="home-phone" placeholder="Enter Home Phone #" />
+          </div>
+          <div class="form-group">
+            <label for="cell-phone" class="form-label">Cell Phone:</label>
+            <input type="tel" class="form-input" for="cell-phone" id="cell-phone" placeholder="Enter Cell Phone #" />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-input" for="email" id="email" placeholder="Enter Email Address" />
+          </div>
+          <div class="flex-row justify-flex-end p-1"">
+            <input class="btn btn-lg btn-info" id="add-card" type="submit" value="Add Contact">
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

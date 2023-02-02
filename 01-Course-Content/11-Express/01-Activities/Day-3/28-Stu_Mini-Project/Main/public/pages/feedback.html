@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI/UX Tips - Feedback</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body>
+    <section class="top">
+      <header class="bg-primary text-light mb-4 py-3 flex-row align-center">
+        <div
+          class="container flex-row justify-space-between-lg justify-center align-center"
+        >
+          <h1 class="m-0">UI/UX Tips</h1>
+          <p class="m-0">Get practical advice from other developers.</p>
+          <button class="btn" id="home-btn">Homepage</button>
+        </div>
+      </header>
+    </section>
+    <h1 class="text-center">Submit Feedback</h1>
+    <section class="feedback-form">
+      <form
+        class="flex-row justify-center justify-space-between-md align-center"
+        id="feedback-form"
+      >
+        <div class="col-12">
+          <textarea
+            name="feedbackText"
+            id="feedbackText"
+            placeholder="Enter feedback here"
+            value=""
+            class="form-input w-100"
+          ></textarea>
+        </div>
+        <div class="col-12 col-lg-9">
+          <input
+            name="feedbackUsername"
+            id="feedbackUsername"
+            placeholder="Username here (optional)"
+            value="anonymous"
+            class="form-input w-100"
+          />
+        </div>
+
+        <div class="col-12 col-lg-3">
+          <button class="btn btn-primary btn-block py-3" type="submit">
+            Add feedback
+          </button>
+        </div>
+      </form>
+    </section>
+    <script src="./scripts/feedback.js"></script>
+  </body>
+</html>

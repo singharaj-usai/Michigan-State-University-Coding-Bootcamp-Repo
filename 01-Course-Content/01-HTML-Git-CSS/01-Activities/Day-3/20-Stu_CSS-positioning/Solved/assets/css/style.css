@@ -1,0 +1,65 @@
+body {
+  /* Sets the position of the body to relative */
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  /* Adds padding to the top of the main element equal to height of fixed header */
+  padding-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+header {
+  /* Sets header position to fixed */
+  position: fixed;
+  /* Positions header 0 length from top of page */
+  top: 0;
+  /* Sets the stack order of the header */
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  border-bottom: 10px solid darkblue;
+  background-color: lightblue;
+}
+
+/* Square 1 and 2 */
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 20px auto;
+  border: 15px solid black;
+}
+
+/* Square 2 */
+.absolute-container {
+  /* Sets parent element to relative */
+  position: relative;
+}
+
+/* Box 2 in Square 1 */
+#relative-box-2 {
+  position: relative;
+  /* Offsets box 200px from left to center it */
+  left: 200px;
+}
+
+/* Box 2 in Square 2 */
+#absolute-box-2 {
+  /* Sets position to absolute */
+  position: absolute;
+  /* Positions box zero length from top of parent container */
+  top: 0;
+  /* Positions box 700px from left of parent container */
+  left: 700px;
+}

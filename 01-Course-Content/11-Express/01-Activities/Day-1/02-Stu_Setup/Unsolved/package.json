@@ -1,0 +1,9 @@
+{
+  "name": "02-stu-setup",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

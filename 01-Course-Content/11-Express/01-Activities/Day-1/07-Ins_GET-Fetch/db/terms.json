@@ -1,0 +1,59 @@
+[
+  {
+    "term": "SEO",
+    "definition": "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic.",
+    "url": "https://en.wikipedia.org/wiki/Search_engine_optimization",
+    "category": "web",
+    "relevance": 3
+  },
+  {
+    "term": "API",
+    "definition": "An application programming interface, is a computing interface that defines interactions between multiple software intermediaries. It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc",
+    "url": "https://en.wikipedia.org/wiki/API",
+    "category": "web",
+    "relevance": 10
+  },
+  {
+    "term": "DNS",
+    "definition": "The Domain Name System is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities",
+    "url": "https://en.wikipedia.org/wiki/Domain_Name_System",
+    "category": "networking",
+    "relevance": 3
+  },
+  {
+    "term": "Load-Balancing",
+    "definition": "In computing, load balancing refers to the process of distributing a set of tasks over a set of resources, with the aim of making their overall processing more efficient. Load balancing techniques can optimize the response time for each task, avoiding unevenly overloading compute nodes while other compute nodes are left idle",
+    "url": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
+    "category": "networking",
+    "relevance": 1
+  },
+  {
+    "term": "Docker",
+    "definition": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.",
+    "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+    "category": "cloud",
+    "relevance": 5
+  },
+  {
+    "term": "VPS",
+    "definition": "A virtual private server is a virtual machine sold as a service by an Internet hosting service. The virtual dedicated server also has a similar meaning. A virtual private server runs its own copy of an operating system, and customers may have superuser-level access to that operating system instance, so they can install almost any software that runs on that OS.",
+    "url": "https://en.wikipedia.org/wiki/Virtual_private_server",
+    "category": "cloud",
+    "relevance": 9
+  },
+  {
+    "term": "API",
+    "definition": "An application programming interface, is a computing interface that defines interactions between multiple software intermediaries. It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc",
+    "url": "https://en.wikipedia.org/wiki/API",
+    "category": "web",
+    "relevance": 10
+  },
+  {
+    "term": "REST",
+    "definition": "Stands for Representational State Transfer. This term is usually used in the context of describing an API where requests are made to a URI and a response is given in the form of HTML, XML, JSON, or some other format",
+    "url": "https://en.wikipedia.org/wiki/Representational_state_transfer",
+    "category": "web",
+    "relevance": 10
+  }
+]
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/icon_96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/icon_128x128.png"
+      sizes="128x128"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7eb4e2" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <title>Install Demo</title>
+    <base href="./" />
+  </head>
+  <body>
+    <button type="button" id="installBtn" role="button">
+      Click Me to Install!
+    </button>
+    <h2 id="textHeader">It looks like it is already installed!</h2>
+    <script src="service-worker.js"></script>
+    <script src="assets/js/install.js"></script>
+  </body>
+</html>

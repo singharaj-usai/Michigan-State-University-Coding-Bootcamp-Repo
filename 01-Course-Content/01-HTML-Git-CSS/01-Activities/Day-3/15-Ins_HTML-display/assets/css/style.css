@@ -1,0 +1,52 @@
+body {
+  background-color: #f8fcfd;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 2px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+a {
+  font-size: 16px;
+  color: #181510;
+}
+
+section {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #f6e9c9;
+}
+
+.first-element {
+  background-color: lightblue;
+}
+
+.second-element {
+  background-color: goldenrod;
+}
+
+/* Sets display of all elements with class selector to block */
+.display-block {
+  display: block;
+}
+
+/* Sets display of all elements with class selector to inline */
+.display-inline {
+  display: inline;
+}
+
+/* Sets display of all elements with class selector to inline */
+.display-none {
+  display: none;
+}

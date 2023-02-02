@@ -1,0 +1,1 @@
+Day 1 was just introducing ourselves and learning about the course
